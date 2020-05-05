@@ -3,15 +3,19 @@
 ;
 $ORIGIN 8.168.192.in-addr.arpa.
 $TTL	604800
-@	IN	SOA	NS1.practicadaw.net. (
+@	IN	SOA	ns1.practicadaw.net. luismidaw.practicadaw.net. (
 			      2		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-@	IN	NS	NS1.practicadaw.net.
+@	IN	NS	ns1.practicadaw.net.
 @	IN	A	127.0.0.1
 @	IN	AAAA	::1
-252	IN	PTR	NS1.practicadaw.net.
+252	IN	PTR	ns1.practicadaw.net.
+2	IN	PTR	pedro.practicadaw.net.
+3	IN	PTR	juan.practicadaw.net.
+6	IN	PTR	smtp.practicadaw.net.
+2	IN	PTR	web.practicadaw.net.
 

@@ -2,14 +2,17 @@
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	NS1.practicadaw.net. (
+@	IN	SOA	NS1.practicadaw.net. luismidaw.practicadaw.net. (
 			      2		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-	IN	NS	NS1
+@	IN	NS	NS1.practicadaw.net.
 @	IN	A	127.0.0.1
 @	IN	AAAA	::1
-NS1	IN	A	192.168.8.252
+pedro	IN	A	192.168.8.2
+juan	IN	A	192.168.8.3
+web	IN	CNAME	pedro
+smtp	IN	A	192.168.8.6

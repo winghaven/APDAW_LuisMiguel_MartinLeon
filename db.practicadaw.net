@@ -16,3 +16,5 @@ pedro	IN	A	192.168.8.2
 juan	IN	A	192.168.8.3
 web	IN	CNAME	pedro
 smtp	IN	A	192.168.8.6
+manuel	IN	A	192.168.8.4
+ana	IN	A	192.168.8.5

@@ -18,4 +18,7 @@ $TTL	604800
 3	IN	PTR	juan.practicadaw.net.
 6	IN	PTR	smtp.practicadaw.net.
 2	IN	PTR	web.practicadaw.net.
+4	IN	PTR	manuel.practicadaw.net.
+5	IN	PTR	ana.practicadaw.net.
+
 
